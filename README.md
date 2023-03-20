@@ -27,7 +27,7 @@ echo OPENAI_API_KEY=your_api_key_here > .env
 ターミナルで、以下のコマンドを実行してスクリプトを実行します。
 
 ```bash
-node gen_code_from_requuirements.js input_file.txt
+node gen_code_from_requirements.js input_file.txt
 ```
 
 スクリプトが正常に実行されると、結果が output.txt ファイルに保存されます。
