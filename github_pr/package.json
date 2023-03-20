@@ -1,0 +1,18 @@
+{
+  "name": "github_pr",
+  "version": "1.0.0",
+  "description": "このプロジェクトは、GitHubリポジトリの指定されたファイルを取得し、修正を加えた後にプルリクエスト（PR）を作成するTypeScriptスクリプトです。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/auth": "^3.0.3",
+    "@octokit/auth-token": "^3.0.3",
+    "@octokit/rest": "^19.0.7",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}
